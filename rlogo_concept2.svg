@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns='http://www.w3.org/2000/svg' xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+	<g id="littlecircle" fill="#333">
+		<circle r="25" />
+	</g>
+
+	<g id="rpath" fill="white">
+		<path stroke="none" d="m0 0 l0 -105
+								a75,75 0 0,1 150,0
+								a75,75 0 0,1 -22,53
+								a75,75 0 0,1 22,53
+								z
+								"
+		/>
+	</g>
+	</defs>
+	<rect x="100" y="150" width="500" height="250" stroke="none" fill="#333" />
+	<use  x="175" y="350" xlink:href="#rpath" />
+	<use  x="250" y="250" xlink:href="#littlecircle" />
+	<use  x="250" y="350" xlink:href="#littlecircle" />
+</svg>
