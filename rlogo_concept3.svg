@@ -8,7 +8,9 @@
 		<path stroke="none" d="m0 0 l0 -106
 								a75,75 0 0,1 150,0
 								a75,75 0 0,1 -22,53
-								a75,75 0 0,1 0, 106
+								a75,75 0 0,1 22,53
+								a75,75 0 0,1 -75,75
+								l0 -75
 								z
 								"
 		/>
@@ -18,5 +20,4 @@
 	<use  x="125" y="250" xlink:href="#rpath" />
 	<use  x="200" y="150" xlink:href="#littlecircle" />
 	<use  x="200" y="250" xlink:href="#littlecircle" />
-	<text x="235" y="230" font-size="100" fill="rgb(144,195,212)">type</text>
 </svg>

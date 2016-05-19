@@ -5,7 +5,7 @@
 	</g>
 
 	<g id="rpath" fill="white">
-		<path stroke="none" d="m0 0 l0 -105
+		<path stroke="none" d="m0 0 l0 -106
 								a75,75 0 0,1 150,0
 								a75,75 0 0,1 -22,53
 								a75,75 0 0,1 22,53
@@ -14,8 +14,8 @@
 		/>
 	</g>
 	</defs>
-	<rect x="100" y="150" width="500" height="250" stroke="none" fill="#333" />
-	<use  x="175" y="350" xlink:href="#rpath" />
-	<use  x="250" y="250" xlink:href="#littlecircle" />
-	<use  x="250" y="350" xlink:href="#littlecircle" />
+	<rect x="50" y="50" width="500" height="300" stroke="none" fill="#333" />
+	<use  x="125" y="250" xlink:href="#rpath" />
+	<use  x="200" y="150" xlink:href="#littlecircle" />
+	<use  x="200" y="250" xlink:href="#littlecircle" />
 </svg>
