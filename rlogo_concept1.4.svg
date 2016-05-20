@@ -19,5 +19,5 @@
 	<use  x="125" y="250" xlink:href="#rpath" />
 	<use  x="200" y="150" xlink:href="#littlecircle" />
 	<use  x="200" y="250" xlink:href="#littlecircle" />
-	<text x="300" y="230" font-size="100" fill="#ddd">type</text>
+	<text x="300" y="220" font-size="75" fill="#ddd">type</text>
 </svg>
