@@ -3,11 +3,11 @@
 	<g id="littlecircle" fill="#333">
 		<circle r="25" />
 	</g>
-	<g id="bigcircle" fill="#666">
+	<g id="bigcircle" fill="#333">
 		<circle r="75" />
 	</g>
 
-	<g id="rpath" fill="white">
+	<g id="rpath" fill="#dd9823">
 		<path stroke="none" d="m0 0 l0 -106
 								a75,75 0 0,1 150,0
 								a75,75 0 0,1 -22,53
@@ -17,9 +17,10 @@
 		/>
 	</g>
 	</defs>
-	<rect x="50" y="50" width="500" height="300" stroke="none" fill="#333" />
+	<rect x="50" y="50" width="500" height="300" stroke="none" fill="#666" />
 	<use  x="200" y="250" xlink:href="#bigcircle" />
 	<use  x="125" y="250" xlink:href="#rpath" />
 	<use  x="200" y="150" xlink:href="#littlecircle" />
 	<use  x="200" y="250" xlink:href="#littlecircle" />
+	<text x="300" y="230" font-size="100" fill="#333">type</text>
 </svg>

@@ -3,11 +3,11 @@
 	<g id="littlecircle" fill="#333">
 		<circle r="25" />
 	</g>
-	<g id="bigcircle" fill="#666">
+	<g id="bigcircle" fill="rgba(35, 221, 152, 0.25)">
 		<circle r="75" />
 	</g>
 
-	<g id="rpath" fill="white">
+	<g id="rpath" fill="rgba(35, 221, 152, 1)">
 		<path stroke="none" d="m0 0 l0 -106
 								a75,75 0 0,1 150,0
 								a75,75 0 0,1 -22,53
