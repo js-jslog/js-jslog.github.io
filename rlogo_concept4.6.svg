@@ -1,0 +1,30 @@
+<svg width="500" height="500" xmlns='http://www.w3.org/2000/svg' xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+	<g id="littlecircle" fill="#333">
+		<circle r="25" />
+	</g>
+	<g id="bigcircle" fill="rgba(221, 152, 35, 0.5)">
+		<circle r="75" />
+	</g>
+	<g id="semicircle" fill="rgba(250,250,250, 0.5)">
+		<path stroke="none" d="m0 0 a25,25 0 0,0 50,0 z" />
+	</g>
+
+	<g id="rpath" fill="rgba(221, 152, 35, 1)">
+		<path stroke="none" d="m0 0 l0 -106
+								a75,75 0 0,1 150,0
+								a75,75 0 0,1 -22,53
+								a75,75 0 0,1 22,53
+								z
+								"
+		/>
+	</g>
+	</defs>
+	<use  x="200" y="250" xlink:href="#bigcircle" />
+	<use  x="125" y="250" xlink:href="#rpath" />
+	<use  x="200" y="150" xlink:href="#littlecircle" />
+	<use  x="200" y="250" xlink:href="#littlecircle" />
+	<use  x="175" y="250" xlink:href="#semicircle" />
+	<text x="270" y="230" font-size="100" fill="rgba(51, 51, 51, 1)">type</text>
+	<text x="270" y="227" font-size="100" fill="rgba(51, 51, 51, 0.5)" transform="translate(0, 500) scale(1, -1) ">type</text>
+</svg>
