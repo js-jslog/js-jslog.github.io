@@ -1,9 +1,9 @@
 <svg width="500" height="500" xmlns='http://www.w3.org/2000/svg' xmlns:xlink="http://www.w3.org/1999/xlink">
 	<defs>
-	<g id="littlecircle" fill="white" stroke="#60594D" stroke-width="3">
+	<g id="littlecircle" fill="white" stroke="#6494AA" stroke-width="3">
 		<circle r="25" />
 	</g>
-	<g id="rpath" fill="#4C5B5C">
+	<g id="rpath" fill="#E9B872">
 		<path stroke="none" d="m0 0 l0 -106
 								a75,75 0 0,1 150,0
 								a75,75 0 0,1 -22,53
@@ -16,5 +16,5 @@
 	<use  x="125" y="250" xlink:href="#rpath" />
 	<use  x="200" y="150" xlink:href="#littlecircle" />
 	<use  x="200" y="250" xlink:href="#littlecircle" />
-	<text x="270" y="220" font-size="75" fill="#60594D">type</text>
+	<text x="270" y="220" font-size="75" fill="#6494AA">type</text>
 </svg>
