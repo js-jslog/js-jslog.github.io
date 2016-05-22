@@ -1,15 +1,14 @@
 <svg width="500" height="500" xmlns='http://www.w3.org/2000/svg' xmlns:xlink="http://www.w3.org/1999/xlink">
 	<defs>
-	<g id="littlecircle" fill="#333">
+	<g id="littlecircle" fill="white" stroke="#7C7F65" stroke-width="3">
 		<circle r="25" />
 	</g>
-
-	<g id="rpath" fill="none" stroke="#333" stroke-width="5">
-		<path d="m0 0 l0 -106
+	<g id="rpath" fill="#D4CBE5">
+		<path stroke="none" d="m0 0 l0 -106
 								a75,75 0 0,1 150,0
 								a75,75 0 0,1 -22,53
-								a75,75 0 0,1 0, 106
-								l-53,-53
+								a75,75 0 0,1 22,53
+								z
 								"
 		/>
 	</g>
@@ -17,5 +16,5 @@
 	<use  x="125" y="250" xlink:href="#rpath" />
 	<use  x="200" y="150" xlink:href="#littlecircle" />
 	<use  x="200" y="250" xlink:href="#littlecircle" />
-	<text x="270" y="220" font-size="75" fill="#333">type</text>
+	<text x="270" y="220" font-size="75" fill="#7C7F65">type</text>
 </svg>

@@ -4,17 +4,18 @@
 		<circle r="25" />
 	</g>
 
-	<g id="rpath" fill="none" stroke="#333" stroke-width="5">
-		<path d="m0 0 l0 -106
+	<g id="rpath" fill="rgba(205, 54, 17, 1)">
+		<path stroke="none" d="m0 0 l0 -116
 								a75,75 0 0,1 150,0
 								a75,75 0 0,1 -22,53
-								a75,75 0 0,1 0, 106
-								l-53,-53
+								a75,75 0 0,1 22,53
+								l0 10
+								z
 								"
 		/>
 	</g>
 	</defs>
-	<use  x="125" y="250" xlink:href="#rpath" />
+	<use  x="125" y="260" xlink:href="#rpath" />
 	<use  x="200" y="150" xlink:href="#littlecircle" />
 	<use  x="200" y="250" xlink:href="#littlecircle" />
 	<text x="270" y="220" font-size="75" fill="#333">type</text>
